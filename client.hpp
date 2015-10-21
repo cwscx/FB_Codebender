@@ -10,9 +10,7 @@
 	#include <sys/socket.h>
 	#include <netinet/in.h>
 	#include <netdb.h> 
-#endif
-
-#ifdef __APPLE__
+#elif __APPLE__
 	#include <iostream>
 	#include <stdlib.h>
 	#include <unistd.h>

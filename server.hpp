@@ -9,9 +9,7 @@
 	#include <sys/types.h>
 	#include <sys/socket.h>
 	#include <netinet/in.h>
-#endif
-
-#ifdef __APPLE__
+#elif __APPLE__
 	#include <iostream>
 	#include <stdlib.h>
 	#include <unistd.h>
