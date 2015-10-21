@@ -1,1 +1,16 @@
-com0com
+Use the Makefile to compile
+
+make all
+
+Start server first:
+server port_number
+
+e.g.
+./server 3000
+
+Then start client:
+client host port_number
+
+e.g.
+./client localhost 3000
+
