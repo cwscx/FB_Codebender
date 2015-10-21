@@ -11,6 +11,16 @@
 	#include <netinet/in.h>
 #endif
 
+#ifdef __APPLE__
+	#include <iostream>
+	#include <stdlib.h>
+	#include <unistd.h>
+	#include <cstring>
+	#include <sys/types.h>
+	#include <sys/socket.h>
+	#include <netinet/in.h>
+#endif
+
 class Server
 {
 	public:
